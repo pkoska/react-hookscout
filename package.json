@@ -1,0 +1,44 @@
+{
+  "name": "react-hookrouter",
+  "version": "1.2.3",
+  "description": "A hook based router for React",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest unittest/",
+    "prepublishOnly": "cross-env NODE_ENV=production babel ./src --out-dir ./dist -s inline",
+    "preTest": "babel ./src --out-dir ./dist -s inline && babel ./test/src --out-dir ./test/dist -s inline && npm run webpack",
+    "webpack": "webpack ./test/dist/index.js -o ./test/dist/pack.js --devtool source-map",
+    "testServer": "http-server ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pkoska/react-hookrouter.git"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "Patrick Koska <info@xmil.de>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/pkoska/react-hookrouter/issues"
+  },
+  "homepage": "https://github.com/pkoska/react-hookrouter#readme",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "cross-env": "5.2.0",
+    "http-server": "0.11.1",
+    "jest": "^24.6.0",
+    "node": "18.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-test-renderer": "18.2.0",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0"
+  }
+}

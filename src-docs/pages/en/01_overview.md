@@ -1,28 +1,17 @@
-# react-hookrouter# React Hook Router
+# Overview
 
-The modern alternative to react-router.
+- [Installation](#installation)
+- [Quick example](#quick-example)
 
-Tested from `React 16.8.1` upwards.
+## Installation
+Install this module and save it as a dependency:
 
-## How to install
-Well, this is straightforward:
+    npm install --save hookrouter
 
-    npm i react-hookrouter
 
-## Typescript
-This project is not written in typescript.
+## Quick example
 
-Thanks to the github user [@mcaneris](https://github.com/mcaneris), you can install types via:
-
-    npm i @types/react-hookrouter
-    
-I did not check if those types are correct nor will I keep them up to date with future releases.
-    
-    
-## Documentation
-Detailed documentation about how to use hookrouter can be [found here](https://github.com/Paratron/hookrouter/blob/master/src-docs/pages/en/README.md)
-
-## A quick example
+A quick example:
 ```jsx harmony
 import {useRoutes} from 'hookrouter';
 
@@ -47,3 +36,4 @@ to your components.
 
 The hook will return whatever the route function returned, so you may also return
 strings, arrays, React fragments, null - whatever you like.
+
