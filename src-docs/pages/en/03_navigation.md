@@ -10,7 +10,8 @@
 
 ## Programmatic navigation
 
-```import {navigate} from 'hookrouter';
+```jsx
+import {navigate} from 'hookrouter';
 ```
 
 If you want to send your user somewhere, you can call the `navigate(url, [replace], [queryParams])` function from the
