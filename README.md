@@ -17,10 +17,9 @@ Thanks to the github user [@mcaneris](https://github.com/mcaneris), you can inst
     npm i @types/react-hookrouter
     
 I did not check if those types are correct nor will I keep them up to date with future releases.
-    
-    
+
 ## Documentation
-Detailed documentation about how to use hookrouter can be [found here](https://github.com/Paratron/hookrouter/blob/master/src-docs/pages/en/README.md)
+Detailed documentation about how to use hookrouter can be [found here](https://github.com/pkoska/react-hookrouter/blob/master/src-docs/pages/en/README.md)
 
 ## A quick example
 ```jsx harmony
