@@ -6,14 +6,14 @@
 ## Installation
 Install this module and save it as a dependency:
 
-    npm install --save react-rosetta-router
+    npm install --save react-hookscout
 
 
 ## Quick example
 
 A quick example:
 ```jsx harmony
-import {useRoutes} from 'react-rosetta-router';
+import {useRoutes} from 'react-hookscout';
 
 const routes = {
     '/': () => <HomePage />,

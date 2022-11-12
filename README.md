@@ -7,23 +7,23 @@ Tested from `React 16.8.1` upwards.
 ## How to install
 Well, this is straightforward:
 
-    npm i react-rosetta-router
+    npm i react-hookscout
 
 ## Typescript
 This project is not written in typescript.
 
 Thanks to the github user [@mcaneris](https://github.com/mcaneris), you can install types via:
 
-    npm i @types/react-rosetta-router
+    npm i @types/react-hookscout
     
 I did not check if those types are correct nor will I keep them up to date with future releases.
 
 ## Documentation
-Detailed documentation about how to use the Rosetta router can be [found here](https://github.com/pkoska/react-rosetta-router/blob/master/src-docs/pages/en/README.md)
+Detailed documentation about how to use the Rosetta router can be [found here](https://github.com/pkoska/react-hookscout/blob/master/src-docs/pages/en/README.md)
 
 ## A quick example
 ```jsx harmony
-import {useRoutes} from 'react-rosetta-router';
+import {useRoutes} from 'react-hookscout';
 
 const routes = {
     '/': () => <HomePage />,

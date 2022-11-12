@@ -1,5 +1,5 @@
 {
-  "name": "react-rosetta-router",
+  "name": "react-hookscout",
   "version": "1.2.5",
   "description": "A hook based router for React",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pkoska/react-rosetta-router.git"
+    "url": "git+ssh://git@github.com/pkoska/react-hookscout.git"
   },
   "files": [
     "dist/*",
@@ -22,9 +22,9 @@
   "author": "Patrick Koska <info@xmil.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pkoska/react-rosetta-router/issues"
+    "url": "https://github.com/pkoska/react-hookscout/issues"
   },
-  "homepage": "https://github.com/pkoska/react-rosetta-router#readme",
+  "homepage": "https://github.com/pkoska/react-hookscout#readme",
   "peerDependencies": {
     "react": "16.8 - 18.x"
   },

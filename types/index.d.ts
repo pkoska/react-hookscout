@@ -1,5 +1,5 @@
-// Type definitions for react-rosetta-router 1.2.5
-// Project: https://github.com/pkoska/react-rosetta-router
+// Type definitions for react-hookscout 1.2.5
+// Project: https://github.com/pkoska/react-hookscout
 // Definitions by: Mete Can Eris <https://github.com/mcaneris>
 //                 Sam Calvert <https://github.com/sam-outschool>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped

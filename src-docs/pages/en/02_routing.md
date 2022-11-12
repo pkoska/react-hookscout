@@ -32,7 +32,7 @@ If no match could be made, the route result will be `null` so you can easily dis
 
 ```jsx
 import React from 'react';
-import {useRoutes} from 'react-rosetta-router';
+import {useRoutes} from 'react-hookscout';
 import routes from './routes';
 import {NotFoundPage} from './pages';
 
@@ -44,7 +44,7 @@ const MyApp = () => {
 ```
 
 > __Important to know__    
-> react-rosetta-router will cache the route results. Because of that, your route result functions should be pure (side effect free). This means they should only rely on the parameters that are passed into the functions. If you want to pass additional data, [there is a pattern for that](#passing-additional-data-to-route-functions).
+> react-hookscout will cache the route results. Because of that, your route result functions should be pure (side effect free). This means they should only rely on the parameters that are passed into the functions. If you want to pass additional data, [there is a pattern for that](#passing-additional-data-to-route-functions).
 
 ## URL parameters
 Your paths may contain parts that should be consumed as parameters for your application. For example, a product page 
@@ -67,7 +67,7 @@ url.
 ### Example
 This is your main application:
 ```jsx harmony
-import {useRoutes, A} from 'react-rosetta-router';
+import {useRoutes, A} from 'react-hookscout';
 
 const routes = {
     '/': () => <HomePage />,
@@ -92,7 +92,7 @@ at the end, it will forward the remaining part of the URL to child routers.
 See whats done now inside the `<AboutArea />` component:
 
 ```jsx harmony
-import {useRoutes, A} from 'react-rosetta-router';
+import {useRoutes, A} from 'react-hookscout';
 
 const routes = {
     '/people': () => 'We are happy people',
@@ -119,7 +119,7 @@ You would use the router to display a loading placeholder instead that gets repl
 
 ## Lazy loading components
 
-Lazy loading and code splitting is very simple with react-rosetta-router:
+Lazy loading and code splitting is very simple with react-hookscout:
 
 ```jsx
 import React from 'react';
@@ -137,7 +137,7 @@ component into a `Suspense` component to display fallback content until the code
 
 ## Passing additional data to route functions
 In our nested routes example I demonstrated how you can split routing for sub-parts of a bigger module of your 
-application further down in the component tree. I also mentioned the fact that react-rosetta-router does not exactly care what 
+application further down in the component tree. I also mentioned the fact that react-hookscout does not exactly care what 
 you return from your route functions. We can utilize that fact to optimize data fetching for our sub modules.
 
 Imagine a product page that is broken down into separate sub parts. There is a general information page, a page about 

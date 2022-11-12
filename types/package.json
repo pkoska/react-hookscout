@@ -1,7 +1,7 @@
 {
-    "name": "@types/react-rosetta-router",
+    "name": "@types/react-hookscout",
     "version": "2.2.5",
-    "description": "TypeScript definitions for react-rosetta-router",
+    "description": "TypeScript definitions for react-hookscout",
     "license": "MIT",
     "contributors": [
         {
@@ -20,7 +20,7 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
-        "directory": "types/react-rosetta-router"
+        "directory": "types/react-hookscout"
     },
     "scripts": {},
     "dependencies": {
