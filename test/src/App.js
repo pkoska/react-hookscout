@@ -24,7 +24,7 @@ const Home = () => {
 		<React.Fragment>
 			<h3>Welcome</h3>
 			<p>
-				This is a testing app for the hookrouter module.
+				This is a testing app for the react-rosetta-router module.
 			</p>
 		</React.Fragment>
 	);
@@ -108,7 +108,7 @@ const Products = () => {
 								: 1
 					)
 					// Note: the link uses the setLinkProps method, but you should prefer using
-					// the hookrouter 'A' component if you are not using a framework that
+					// the react-rosetta-router 'A' component if you are not using a framework that
 					// requires href / onClick to be provided to it
 					.map(([id, title]) => (
 						<li key={id}><a {...setLinkProps({href: `/product/${id}`})}>{title}</a></li>

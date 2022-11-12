@@ -6,14 +6,14 @@
 ## Installation
 Install this module and save it as a dependency:
 
-    npm install --save hookrouter
+    npm install --save react-rosetta-router
 
 
 ## Quick example
 
 A quick example:
 ```jsx harmony
-import {useRoutes} from 'hookrouter';
+import {useRoutes} from 'react-rosetta-router';
 
 const routes = {
     '/': () => <HomePage />,

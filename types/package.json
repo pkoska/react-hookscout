@@ -1,7 +1,7 @@
 {
-    "name": "@types/react-hookrouter",
+    "name": "@types/react-rosetta-router",
     "version": "2.2.5",
-    "description": "TypeScript definitions for react-hookrouter",
+    "description": "TypeScript definitions for react-rosetta-router",
     "license": "MIT",
     "contributors": [
         {
@@ -20,7 +20,7 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
-        "directory": "types/react-hookrouter"
+        "directory": "types/react-rosetta-router"
     },
     "scripts": {},
     "dependencies": {

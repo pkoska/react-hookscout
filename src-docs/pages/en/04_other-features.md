@@ -37,7 +37,7 @@ query parameters from the URL. Even more: if you decide to update the query para
 using the hook will be re-rendered and can evaluate the new data.
 
 Setting query params does _not_ trigger a navigation intent. Query parameters are not used for
-routing in hookrouter.
+routing in react-rosetta-router.
 
 ```jsx
 const SearchWidget = ({onSearch}) => {
@@ -89,7 +89,7 @@ If `<SearchWidget />` updates the query string, `<SearchHeader />` gets re-rende
 In case you need to make use of the current URI path, you can use the `usePath()` hook:
 
 ```jsx
-import {usePath} from 'hookrouter';
+import {usePath} from 'react-rosetta-router';
 
 const PathLabel = () => {
     const path = usePath();

@@ -11,11 +11,11 @@
 ## Programmatic navigation
 
 ```jsx
-import {navigate} from 'hookrouter';
+import {navigate} from 'react-rosetta-router';
 ```
 
 If you want to send your user somewhere, you can call the `navigate(url, [replace], [queryParams])` function from the
-hookrouter package. You pass an URL (both relative or absolute) and the navigation will happen. After the navigation,
+react-rosetta-router package. You pass an URL (both relative or absolute) and the navigation will happen. After the navigation,
 all previous matches will be re-evaluated if they are valid anymore or if some components need to be swapped.
 
 ```jsx
@@ -60,7 +60,7 @@ one entry in the navigation history. If a forward from `/test` to `/other` happe
 
 
 ```jsx harmony
-import {useRoutes, useRedirect} from 'hookrouter';
+import {useRoutes, useRedirect} from 'react-rosetta-router';
 
 const routes = {
     '/greeting': () => 'Nice to meat you 🤤 ',
@@ -81,7 +81,7 @@ You can pass an object of query parameters as third argument to the `useRedirect
 
 ## Using the Link component
 ```jsx harmony
-import {useRoutes, A} from 'hookrouter';
+import {useRoutes, A} from 'react-rosetta-router';
 
 const routes = {
     '/': () => <HomePage />,
@@ -107,7 +107,7 @@ URL on the history stack, instead.
 
 ## Creating custom link components
 In case you need more control about link components and want to roll out your own, you can use the helper
-function `setLinkProps()` provided by hookrouter.
+function `setLinkProps()` provided by react-rosetta-router.
 
 ```jsx
 const MyLinkButton = (props) => {
@@ -213,7 +213,7 @@ or place a Link with `<A href="/about" />`, they will actually lead to `[basepat
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {setBasepath} from "hookrouter";
+import {setBasepath} from "react-rosetta-router";
 
 setBasepath('/basepath');
 
