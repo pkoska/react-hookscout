@@ -1,4 +1,4 @@
-## React Rosetta Router
+## React Hookscout Router
 
 The modern alternative to react-router.
 
@@ -8,15 +8,6 @@ Tested from `React 16.8.1` upwards.
 Well, this is straightforward:
 
     npm i react-hookscout
-
-## Typescript
-This project is not written in typescript.
-
-Thanks to the github user [@mcaneris](https://github.com/mcaneris), you can install types via:
-
-    npm i @types/react-hookscout
-    
-I did not check if those types are correct nor will I keep them up to date with future releases.
 
 ## Documentation
 Detailed documentation about how to use the Rosetta router can be [found here](https://github.com/pkoska/react-hookscout/blob/master/src-docs/pages/en/README.md)

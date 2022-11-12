@@ -72,7 +72,7 @@ describe('Link.js', () => {
       getBasepath.mockReturnValue("");
 
       const tree = renderer
-        .create(<A href="/Paratron/hookrouter">hookrouter</A>)
+        .create(<A href="/pkoska/hookscout">hookrouter</A>)
         .toJSON();
 
       expect(tree).toMatchSnapshot();
@@ -82,7 +82,7 @@ describe('Link.js', () => {
       getBasepath.mockReturnValue("");
 
       const tree = renderer
-        .create(<A href="/Paratron/hookrouter" onClick={() => null}>hookrouter</A>)
+        .create(<A href="/pkoska/hookscout" onClick={() => null}>hookrouter</A>)
         .toJSON();
 
       expect(tree).toMatchSnapshot();
@@ -92,7 +92,7 @@ describe('Link.js', () => {
       getBasepath.mockReturnValue("");
 
       const tree = renderer
-        .create(<A href="/Paratron/hookrouter" onClick={() => null} target="_blank">hookrouter</A>)
+        .create(<A href="/pkoska/hookscout" onClick={() => null} target="_blank">hookrouter</A>)
         .toJSON();
 
       expect(tree).toMatchSnapshot();
@@ -102,7 +102,7 @@ describe('Link.js', () => {
       getBasepath.mockReturnValue("/test4");
 
       const tree = renderer
-        .create(<A href="/Paratron/hookrouter" onClick={() => null} target="_blank">hookrouter</A>)
+        .create(<A href="/pkoska/hookscout" onClick={() => null} target="_blank">hookrouter</A>)
         .toJSON();
 
       expect(tree).toMatchSnapshot();

@@ -18,6 +18,6 @@
     },
     "files": [
         "index.d.ts",
-        "hookrouter-tests.ts"
+        "hookscout-tests.ts"
     ]
 }
