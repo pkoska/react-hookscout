@@ -1,4 +1,4 @@
-# react-hookrouter# React Hook Router
+# react-rosetta-router# React Rosetta Router
 
 The modern alternative to react-router.
 
@@ -7,19 +7,19 @@ Tested from `React 16.8.1` upwards.
 ## How to install
 Well, this is straightforward:
 
-    npm i react-hookrouter
+    npm i react-rosetta-router
 
 ## Typescript
 This project is not written in typescript.
 
 Thanks to the github user [@mcaneris](https://github.com/mcaneris), you can install types via:
 
-    npm i @types/react-hookrouter
+    npm i @types/react-pathfinder
     
 I did not check if those types are correct nor will I keep them up to date with future releases.
 
 ## Documentation
-Detailed documentation about how to use hookrouter can be [found here](https://github.com/pkoska/react-hookrouter/blob/master/src-docs/pages/en/README.md)
+Detailed documentation about how to use hookrouter can be [found here](https://github.com/pkoska/react-pathfinder/blob/master/src-docs/pages/en/README.md)
 
 ## A quick example
 ```jsx harmony
